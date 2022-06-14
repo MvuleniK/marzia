@@ -3,6 +3,19 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+// import './assests/font/Poppins-Black.otf';
+// import './assests/font/Poppins-BlackItalic.otf'; 
+// import './assests/font/Poppins-Bold.otf'; 
+// import './assests/font/Poppins-BoldItalic.otf'; 
+// import './assests/font/Poppins-ExtraBold.otf';  
+// import './assests/font/Poppins-ExtraBold.otf'; 
+// import './assests/font/Poppins-ExtraBoldItalic.otf'; 
+// import './assests/font/Poppins-ExtraLight.otf'; 
+// import './assests/font/Poppins-Italic.otf'; 
+// import './assests/font/Poppins-Light.otf'; 
+// import './assests/font/Poppins-LightItalic.otf'; 
+// import './assests/font/Poppins-Medium.otf'; 
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

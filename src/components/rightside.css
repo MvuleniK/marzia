@@ -1,0 +1,244 @@
+
+/* *{
+  margin: 0;
+  padding: 0;
+
+} */
+
+/* .right-container {
+     background-color: green;
+     width: 10rem;
+
+} */
+
+
+/* .content .detailContent{
+  width: px;
+  height:auto
+} */
+
+
+.content .detailContent .colour-button{
+
+  position:static;
+  left:40em;
+  margin-top: -8.5em;
+  margin-left:40rem;
+  display: flex;
+  flex-direction: column;
+  z-index: -1;
+  /* background-color:crimson; */
+}
+
+.content .detailContent .colour-button li{
+  margin-top: 18px;
+  margin-bottom:10px;
+  position:inherit;
+  list-style: none;
+
+}
+
+.content .bottomContent{
+  /* background-color:chartreuse; */
+  z-index:1;
+  position:absolute;
+  bottom:-20em;
+  right:10em;
+}
+
+/* .content .bottomContent img{
+  wi
+} */
+
+.content{
+  position:static;
+  /* background-color: aqua; */
+
+}
+
+.content .rightBottom{
+  align-items: center;
+  /* width:381px;
+  height:371px; */
+}
+
+
+/* Button 1 */
+
+
+.content .detailContent .colour-button  .outer-circle1 {
+  border: solid #424b6a;
+  background-color:#e8e7ec;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+  animation: ripple 2.0s 0.2s infinite;
+  -webkit-animation: ripple 2.0s 0.2s  infinite;
+}
+
+.content .detailContent .colour-button  .outer-circle1:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+
+.content .detailContent .colour-button  .inner-circle1 {
+  border: solid #e8e7ec;
+  background-color:#424b6a;
+  width:35px;
+  height: 35px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+}
+
+
+/* Button 2 */
+
+
+.content .detailContent .colour-button  .outer-circle2 {
+  border: solid #f7b749;
+  background-color:#e8e7ec;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+  animation: ripple 2.0s 0.2s infinite;
+  -webkit-animation: ripple 2.0s 0.2s  infinite;
+}
+
+.content .detailContent .colour-button  .outer-circle2:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+
+.content .detailContent .colour-button  .inner-circle2 {
+  border: solid #e8e7ec;
+  background-color:#f7b749;
+  width:35px;
+  height: 35px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+}
+
+
+
+
+/* Button 3 */
+
+
+.content .detailContent .colour-button  .outer-circle3 {
+  border: solid #632122;
+  background-color:#e8e7ec;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+  animation: ripple 2.0s 0.2s infinite;
+  -webkit-animation: ripple 2.0s 0.2s  infinite;
+}
+
+.content .detailContent .colour-button  .outer-circle3:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+
+.content .detailContent .colour-button  .inner-circle3 {
+  border: solid #e8e7ec;
+  background-color:#632122;
+  width:35px;
+  height: 35px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+}
+
+
+
+
+
+/* Button 4 */
+
+
+.content .detailContent .colour-button  .outer-circle4 {
+  border: solid #58491d;
+  background-color:#e8e7ec;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+  animation: ripple 2.0s 0.2s infinite;
+  -webkit-animation: ripple 2.0s 0.2s  infinite;
+}
+
+.content .detailContent .colour-button  .outer-circle4:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+
+.content .detailContent .colour-button  .inner-circle4 {
+  border: solid #e8e7ec ;
+  background-color:#58491d;
+  width:35px;
+  height: 35px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+}
+
+
+
+/* Button 5 */
+
+
+
+.content .detailContent .colour-button  .outer-circle5 {
+  border: solid #74857b;
+  background-color:#e8e7ec;
+  width: 60px;
+  height: 60px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+
+  transform: translateX(-50%);
+  transition: all 0.2s ease-in-out;
+  animation: ripple 2.0s 0.2s infinite;
+  -webkit-animation: ripple 2.0s 0.2s  infinite;
+}
+
+.content .detailContent .colour-button  .outer-circle5:hover {
+  transform: translateX(-50%) scale(1.2);
+}
+
+
+.content .detailContent .colour-button  .inner-circle5 {
+  border: solid #e8e7ec;
+  background-color:#74857b;
+  width:35px;
+  height: 35px;
+  border-radius: 80%;
+  /* margin: 0 auto; */
+  position:relative;
+}
+
+
+
+/* Button 6 */

@@ -1,0 +1,46 @@
+ yellow : f4b748
+
+
+
+blue grey: 3b455d
+
+
+smoke grey : e8e7ec
+
+light grey for icons: a2a7b3 , a1a9b4
+
+
+couch change colours: 
+
+
+yellow: f4b748
+
+orange: f4844d
+
+brown: 965f3b
+
+dark grey: 404e69
+
+footer colours for icons: 
+
+
+a2aab5
+
+
+
+
+screen resolution(turn into percentages): 
+
+max width: 1064
+max height: 726 
+
+
+
+.furniture-img1 img{
+    width:32rem;
+    height: auto;
+    background-color: brown;
+    margin-bottom: 120px;
+    margin-right:60px;
+}
+

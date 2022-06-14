@@ -1,0 +1,16 @@
+/* 
+.furniture2-img2 img{
+    width: 200px;
+    height: auto;
+    position: absolute;
+    bottom:122px;
+} */
+
+.furniture2-img2 img{
+    width:30rem;
+    height: auto;
+    /* background-color: brown; */
+    margin-bottom: 60px;
+    margin-right:40px;
+}
+

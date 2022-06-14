@@ -1,0 +1,125 @@
+@font-face {
+    font-family: 'Poppins', sans-serif;
+    src: local("PoppinsRegular"),url("/src/font/Poppins-Regular.otf") format("opentype");
+    /* font-weight:200; */
+  }
+
+
+  .row-bottombar{
+    height: 80px;
+    width: 1000px;
+    display: flex;
+    flex-direction: row;
+    left: 15em;
+    position: relative;
+    margin-top: 4em;
+    font-family: 'Poppins', sans-serif;
+    /* background-color: #3b455d; */
+}
+
+
+.row-bottombar .column-bottombar{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+    /* background-color: aqua; */
+    width:60%;
+    position: absolute;
+}
+
+
+
+/*.row-bottombar .column-bottombar .list{
+    /* margin-left:30px;
+    margin-right: 30px; */
+    /* width: 200px;
+    margin-top: 13px;
+    margin-right: 10em;
+    position: absolute; */
+    /* margin-left: 0px; } */
+*/
+
+
+.row-bottombar .column-bottombar .list1 h4{
+
+    position: absolute;
+    font-weight: 600;
+    color: #3b455d;
+    font-family: 'Poppins', sans-serif;
+}
+
+.row-bottombar .column-bottombar .list2 .dot{
+    margin-bottom: 1px;
+    height: 10px;
+    width: 10px;
+    background-color:#f4b748;
+    border-radius: 50%;
+    display: inline-block;
+    left:1em;
+    position: relative;
+  }
+
+  .row-bottombar .column-bottombar .list3 .support-customer{
+    color: #f4b748;
+    position: relative;
+    left:2em;
+}
+
+.row-bottombar .column-bottombar .list4 .dot2{
+    margin-bottom: 1px;
+    height: 10px;
+    width: 10px;
+    background-color:#f4b748;
+    border-radius: 50%;
+    display: inline-block;
+    left:3em;
+    position: relative;
+}
+
+.row-bottombar .column-bottombar .list5 h4{
+
+    position: absolute;
+    font-weight: 600;
+    color: #3b455d;
+    left:22em;    
+}
+
+
+
+/* .row-bottombar .column-bottombar .list h4 { 
+    font-weight: 600;
+    color: #3b455d;
+    margin-right: 100px;
+} */
+
+
+
+
+
+
+
+.row-bottombar .column-bottombar #img-icon {
+    margin-left:15px;
+    margin-right: 15px;
+    position: relative;
+    height: auto;
+    width: 40px; 
+    left:55em;
+    margin-bottom: 10px;
+    /* background-color: #e8e7ec; */
+    fill: #e8e7ec;
+}
+
+
+
+
+
+  /* .row-bottombar .column-bottombar #img-icon:hover {
+    background-color:#3b455d;
+    border-radius: 6px;
+    
+} */
+
+
+
+
